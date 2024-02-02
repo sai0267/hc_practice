@@ -1,0 +1,636 @@
+/*570px以下および共通設定*/
+body {
+    font-family: "hiragino-kaku-gothic-pron", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+}
+
+.container {
+    width: 100%;
+    background-color: #EDF2F6
+}
+
+header {
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E4EDF4;
+}
+
+header img {
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 40px;
+    gap: 20px;
+}
+
+.fa-magnifying-glass {
+    color: #64717B;
+    margin: auto 0;
+}
+
+.login button {
+    background-color: #3EA8FF;
+    border: 1px solid #3EA8FF;
+    color: #fff;
+    padding: 7px 14px 7px 14px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 13px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.contents {
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E4EDF4;
+    position: sticky;
+    top: 0px;
+    z-index:1000;
+}
+
+.cont-zenn {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0 auto 20px;
+    gap: 10px;
+}
+
+.cont-zenn img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.cont-zenn p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.cont-table {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 40px auto 0;
+    gap: 20px;
+}
+
+.mokuji {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.mokuji p {
+    color: #64717B;
+    font-size: 15px;
+    margin: auto 0;
+}
+
+.mokuji .fa-chevron-down {
+    color: #64717B;
+    margin: auto 0;
+    font-size: 0.8em;
+}
+
+.fav {
+    color: #8F9FAA;
+    background-color: #EDF2F6;
+    padding: 10px;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+
+main {
+    width: 100%;
+}
+
+.top {
+    margin: 50px auto;
+}
+
+.top h1 {
+    text-align: center;
+    font-size: 75px;
+    line-height: 83px;
+    margin-bottom: 26px;
+}
+
+.top h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 46px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.top p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #65717b;
+    width: 100%;
+}
+
+.article {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.art-top {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 20px 0;
+}
+
+.top-icon {
+    display: flex;
+    border: 1px solid #E4EDF4;
+    padding: 7px 12px;
+    border-radius: 20px;
+}
+
+.top-icon img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.top-icon p {
+    font-size: 13px;
+    line-height: 18px;
+    
+}
+
+.art-text {
+    width: 100%;
+}
+
+.art-text h2 {
+    margin-top: 60px;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41px;
+    border-bottom: 1px solid #D5E3ED;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.art-text h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    border-bottom: 1px solid #D5E3ED;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.art-text .img-zenn {
+    margin: 0 auto 20px auto;
+    width: 85%;
+}
+
+.art-text .img-edit {
+    margin: 0 auto 20px auto;
+    width: 90%;
+}
+
+
+.art-text details {
+    width: 100%;
+    border: 1px solid #D5E3ED;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.art-text summary {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.art-text summary [open] {
+    padding-bottom: 15px;
+    background-color: #F1F5F9;
+    width: 100%;
+}
+
+.art-text .shortcut {
+    border-top: 1px solid #D5E3ED;
+    background-color: #fff;
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.art-text ul {
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+.art-text li {
+    line-height: 40px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.book, .book-border {
+    font-weight: 700;
+    color: #0f83fd;
+    margin: 25px 0;
+}
+
+.book-border {
+    border-bottom: 2px solid #D5E3ED;
+    padding-bottom: 25px;
+}
+
+.GitHub {
+    display: flex;
+    border: 1px solid #E4EDF4;
+    padding: 7px 12px;
+    border-radius: 20px;
+    gap: 5px;
+    margin-bottom: 30px;
+    width: 9em;
+}
+
+.GitHub .fa-github {
+    font-size: 1em;
+    color: #000;
+}
+
+.GitHub p {
+    font-size: 13px;
+    line-height: 18px;
+    padding: auto 0;
+}
+
+.art-foot {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D5E3ED;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.art-foot .art-fav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.art-fav .fa-heart {
+    font-size: 1.5em;
+    color: #8F9FAA;
+    background-color: #EDF2F6;
+    padding: 13px;
+    text-align: center;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.art-fav p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #8f9faa;
+    margin: auto 0;
+}
+
+
+.art-foot .art-sns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.art-sns .fa-brands, .hatena-bookmark {
+    font-size: 2em;
+    color: #8F9FAA;
+    margin: auto 0;
+}
+
+.art-sns .fa-chevron-down {
+    font-size: 1em;
+    color: #8F9FAA;
+    margin: auto 0;
+}
+
+.hatena-bookmark {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    background-color: #8F9FAA;
+    border-radius: 7px;
+    text-align: center;
+    padding: 2px 5px;
+}
+
+.art-official {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    margin-bottom: 60px;
+}
+
+.art-official img {
+    grid-row: 1 / 4;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.art-official h4 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.art-official p {
+    color: #65717b;
+    margin-bottom: 20px;
+}
+
+.art-official .official-icon {
+    display: flex;
+    gap: 20px;
+    color: #64717B;
+}
+
+.official-icon button {
+    color: #64717B;;
+    font-size: 13px;
+    border: 1px solid #65717b;
+    border-radius: 20px;
+    padding: 5px 12px;
+    background-color: transparent;
+}
+
+.official-icon .fa-brands {
+    color: #64717B;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.discussion {
+    background-color: #fff;
+    width: 100%;
+}
+
+.discussion h2 {
+    margin-top: 50px;
+    padding-top: 30px;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discussion figure {
+    border-bottom: 1px solid #E4EDF4;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.discussion img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.discussion p {
+    font-size: 15px;
+    color: #8f9faa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.discussion button {
+    background-color: #3EA8FF;
+    border: 1px solid #3EA8FF;
+    color: #fff;
+    padding: 7px 14px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.discussion .button {
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.read-next {
+    background-color: transparent;
+    margin-bottom: 100px;
+}
+
+.read-next h2 {
+    font-size: 27px;
+    line-height: 49px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.read-next article {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 15px;
+    margin: 20px;
+    height: 100px;
+}
+
+.read-next .icon {
+    grid-row: 1 / 3;
+    background-color: #fff;
+    text-align: center;
+    font-size: 42px;
+    line-height: 46px;
+    padding-top: 22px;
+    border-radius: 15px;
+    width: 90px;
+    height: 70px;
+}
+
+.read-next h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.account, .account-team {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    font-size: 12px;
+    line-height: 18px;
+    gap: 10px;
+}
+
+.account-team figure {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    position: relative;
+}
+
+.account-icon {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.team-icon {
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.account-team .account-icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.account-team .name {
+    display: flex;
+    gap: 5px;
+}
+
+.data {
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.hiduke {
+    color: #64717B;
+}
+
+.iine {
+    color: #8F9FAA;
+}
+
+.account .account_detail {
+    display: flex;
+    gap: 7px;
+}
+
+
+
+footer {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+
+footer img {
+    width: 100px;
+    height: 20px;
+    margin: 20px;
+}
+
+footer .text {
+    font-size: 13px;
+    line-height: 21px;
+    color: #8F9FAA;
+    margin-left: 20px;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #E4EDF4;
+}
+
+.foot div {
+    display: grid;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.foot h3 {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 700;
+}
+
+.foot p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+.classmethod p {
+    font-size: 13px;
+    line-height: 22px;
+    color: #2A2B2C;
+    text-align: center;
+    background: #E9F1F6;
+    padding: 1em;
+    margin: 25px auto 10px auto;
+    width: 300px;
+    position: relative;
+}
+
+.classmethod p::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #E9F1F6 transparent transparent transparent;
+    border-width: 8px 10px 0px 10px;
+    position: absolute;
+    left: calc(50% - 15px);
+    bottom: -8px;
+}
+
+
+.classmethod img {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 100px;
+    height: 100%;
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>上級アウトプット課題</title>
+
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/f7b5dc0a02.js" crossorigin="anonymous"></script>
+
+        <script>
+            (function(d) {
+              var config = {
+                kitId: 'khc4rgk',
+                scriptTimeout: 3000,
+                async: true
+              },
+              h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+            })(document);
+        </script>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+
+            <header>
+                <img src="image/logo.png" alt="Zennのロゴ">
+                
+                <div class="login">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <button type="button">Log in</button>
+                </div>
+            </header>
+
+        
+
+            <main>
+
+            <section class="contents">
+
+                <div class="cont-zenn">
+                    <img src="image/9965dabc76.jpeg" alt="Zennの公式アカウント">
+                    <p>Zenn公式</p>
+                </div>
+
+                <div class="cont-table">
+                    <div class="mokuji">
+                        <p>目次</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+
+                    <div class="fav">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </section>
+
+            <section class="top">
+
+                <h1>📝</h1>
+                <h2>Zennの2種類の執筆方法について</h2>
+                <p>2020/09/06に公開</p>
+
+            </section>
+
+            <article class="article">
+
+                <section class="art-top">
+                    <div class="top-icon">
+                        <img src="image/b52eac9e48.png" alt="記事一覧">
+                        <p>Zenn</p>
+                    </div>
+                    <div class="top-icon">
+                        <img src="image/idea-icon.svg" alt="アイデア記事一覧">
+                        <p>Idea</p>
+                    </div>
+                </section>
+
+                <section class="art-text">
+                        
+                    <p>このページではZennで記事や本を作成するときの執筆環境について紹介します。</p>
+
+                    <h2>Zenn の執筆方法は 2 種類</h2>
+                    <p>Zennのコンテンツは次のいずれかの方法で作成します。</p>
+
+                    <h3>1. Webエディター</h3>
+                    <img class="img-zenn" src="image/tb04ri7f5v9mdccsehi5jppvfpm3.png" alt="エディターの画面">
+                    <p>ブラウザ上で動くエディターです。Zennにログインした状態で使用します。</p>
+
+                    <details>
+                        <summary>ショートカットを使用しよう</summary>
+                            <div class="shortcut">
+                                <p>オンラインのmarkdownエディターでは、以下のショートカットを使用できます。</p>
+                                <ul>
+                                    <li><span class="bold">Ctrl + P（プレビュー）</span>：markdownがどのように表示されるかをチェックできます。もう一度ショートカットを実行すると、エディターに戻ります。</li>
+                                    <li><span class="bold">Ctrl + S（内容の保存）</span>：変更内容を保存します。</li>
+                                    <li><span class="bold">Ctrl + I（埋め込み）</span>：ツイートや YouTube、CodePen、SpeakerDeck などの埋め込みコンテンツを挿入するためのモーダルが表示されます。</li>
+                                </ul>
+                                <p>※ Mac の場合はCtrlの代わりに⌘キーを使用します。</p>
+                            </div>
+                    </details>
+
+                    <h2>2. ローカルのテキストエディター + CLIte</h2>
+                    <img class="img-edit" src="image/n0tufad6ruthuy0j2hxhffg87hpz.png" alt="テキストエディターの画面">
+                    <img class="img-zenn" src="image/ve1rve2rb3yvvcat974fxt2rftc1.png" alt="ZennのMarkdown記法のエディターガイドの記事画面">
+                    <p>自分の好きな環境で執筆したい方は<span class="bold">GitHub リポジトリとの連携機能</span>を利用することをおすすめします。リポジトリ連携をすると、特定のブランチに変更があったときに自動でコンテンツがzenn.devに反映されるようになります。</p>
+                    <p class="book">📘 Zenn と GitHub リポジトリを連携する →</p>
+                    <p>リポジトリ連携時には、ローカルでmarkdownファイルを作成し、好きなテキストエディターで編集を行います。Zenn CLIを使うことでブラウザでプレビューしながら執筆することが可能になります。</p>
+                    <p class="book-border">📘 Zenn CLI を導入する →</p>
+                    <p>オンラインエディターを使う場合も、CLIを使う場合もmarkdownの書き方は変わりません。具体的な記法は下記のリンク先をご覧ください。</p>
+                    <p class="book">📘 Zenn のmarkdown記法 →</p>
+
+                    <div class="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                        <p>GitHubで編集を提案</p>
+                    </div>
+                </section>
+
+                <section class="art-foot">
+
+                    <div class="art-fav">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>89</p>
+                    </div>
+
+                    <div class="art-sns">
+                        <i class="fa-solid fa-chevron-down"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <p class="hatena-bookmark">B!</p>
+                    </div>
+                    
+                </section>
+
+                <section class="art-official">
+
+                    <img src="image/9965dabc76.jpeg" alt="Zennの公式アカウント">
+                    <h4>Zenn公式</h4>
+                    <p>Zennの使い方や開発状況を発信する公式アカウントです。</p>
+                    <div class="official-icon">
+                        <button type="button">フォロー</button>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                        
+                </section>
+
+            </article>
+
+            <section class="discussion">
+                <h2>Discussion</h2>
+                <figure>
+                    <img src="image/discussion.png" alt="ディスカッションを行っているイラスト">
+                </figure>
+                <p>ログインするとコメントできます</p>
+                <div class="button">
+                    <button type="button">Login</button>
+                </div>
+            </section>
+
+                <section class="read-next">
+                    <h2>Read next</h2>
+
+                    <article>
+                        <p class="icon">🌊</p>
+                        <h3>Zennで会社テックブログを運用した振り返り</h3>
+                        <div class="account-team">
+                            <figure>
+                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            </figure>
+                            <div class="account_detail">
+                                <div class="name">
+                                    <p class="account-name">よさ</p>
+                                    <p class="in">in</p>
+                                    <p class="team-name">フィシルコム</p>
+                                </div>
+                                <div class="data">
+                                    <p class="hiduke">2日前</p>
+                                    <p class="iine">♡54</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">✏️</p>
+                        <h3>新しい技術を学習しながらNotionでメモをとり、Zennで効率よく記事化するフロー</h3>
+                        <div class="account-team">
+                            <figure>
+                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            </figure>
+                            <div class="account_detail">
+                                <div class="name">
+                                    <p class="account-name">Keita Mori （ふぉれ）</p>
+                                    <p class="in">in</p>
+                                    <p class="team-name">PY</p>
+                                </div>
+                                <div class="data">
+                                    <p class="hiduke">2020/10/28</p>
+                                    <p class="iine">♡378</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">❤️</p>
+                        <h3>ZennのアイコンをSimple Iconsに登録して、OSSってやっぱり良いなと思った話</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">nekocodeX</p>
+                                <div class="data">
+                                    <p class="hiduke">2020/12/17</p>
+                                    <p class="iine">♡126</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">✍️</p>
+                        <h3>Zenn の執筆を支援する VSCode 拡張 Zenn Editor</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">negokaz</p>
+                                <div class="data">
+                                    <p class="hiduke">2021/04/29</p>
+                                    <p class="iine">♡232</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">📖</p>
+                        <h3>Zennで本を作ってみた感想と本作りで得た知見</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">PADAone🐕</p>
+                                <div class="data">
+                                    <p class="hiduke">2022/07/05</p>
+                                    <p class="iine">♡48</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">👩‍🎨</p>
+                        <h3>デザインガイドラインを使って既存のコンポーネントを（愚直に）アップデートする</h3>
+                        <div class="account-team">
+                            <figure>
+                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            </figure>
+                            <div class="account_detail">
+                                <div class="name">
+                                    <p class="account-name">waddy_u</p>
+                                    <p class="in">in</p>
+                                    <p class="team-name">Zenn Tech Blog</p>
+                                </div>
+                                <div class="data">
+                                    <p class="hiduke">4日前</p>
+                                    <p class="iine">♡13</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">🧘</p>
+                        <h3>僕がZennを選んだ理由</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">daichi-gamedev</p>
+                                <div class="data">
+                                    <p class="hiduke">2021/04/27</p>
+                                    <p class="iine">♡220</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">🌟</p>
+                        <h3>有料記事の技術ライターで食っていけるか</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">mizchi</p>
+                                <div class="data">
+                                    <p class="hiduke">2020/09/22</p>
+                                    <p class="iine">♡206</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">😺</p>
+                        <h3>【エンジニア必須】何でも文書化のススメ</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">harrythecode</p>
+                                <div class="data">
+                                    <p class="hiduke">2022/10/29</p>
+                                    <p class="iine">♡52</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article>
+                        <p class="icon">💎</p>
+                        <h3>Zenn & Hugo in Obsidian : OHZフローによるナレッジベースとアウトプットコンテンツの完全統括</h3>
+                        <div class="account">
+                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                            <div class="account_detail">
+                                <p class="account-name">PADAone🐕</p>
+                                <div class="data">
+                                    <p class="hiduke">2020/12/17</p>
+                                    <p class="iine">♡126</p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </section>
+                
+            </main>
+
+            <footer>
+
+                <img class="logo" src="image/logo.png" alt="Zennのロゴ">
+                <p class="text">エンジニアのための情報共有コミュニティ</p>
+
+                <section class="foot">
+                      <div class="About">
+                        <h3>About</h3>
+                        <p>Zennについて</p>
+                        <p>運営会社</p>
+                        <p>お知らせ・リリース</p>
+                      </div>
+                      <div class="Guides">
+                        <h3>Guides</h3>
+                        <p>使い方</p>
+                        <p>Publication</p>
+                        <p>よくある質問</p>
+                      </div>
+                      <div class="Links">
+                        <h3>Links</h3>
+                        <p>Twitter</p>
+                        <p>GitHub</p>
+                        <p>メディアキット</p>
+                      </div>
+                      <div class="Legal">
+                        <h3>Legal</h3>
+                        <p>利用規約</p>
+                        <p>プライバシーポリシー</p>
+                        <p>特商法表記</p>
+                      </div>
+                </section>
+                <div class="classmethod">
+                    <p>生成AIのオンラインイベント2/27（水）開催！</p>
+                    <img src="image/classmethod-logo-small.svg" alt="classmethodのアイコン">
+                </div>
+                
+
+            </footer>
+
+        </div>
+        
+    </body>
+
+</html>

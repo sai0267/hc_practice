@@ -40,24 +40,41 @@
 
             <main>
 
-            <section class="contents">
+            <nav>
 
-                <div class="cont-zenn">
+                <div class="nav-zenn">
                     <img src="image/9965dabc76.jpeg" alt="Zennの公式アカウント">
-                    <p>Zenn公式</p>
+                    <p class="zenn">Zenn公式</p>
+                    <div class="hidden official-icon">
+                        <button type="button">フォロー</button>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                    <div class="hidden p">
+                        <p>Zennの使い方や開発状況を発信する公式アカウントです。</p>
+                    </div>
                 </div>
 
-                <div class="cont-table">
+                <div class="nav-table">
                     <div class="mokuji">
                         <p>目次</p>
                         <i class="fa-solid fa-chevron-down"></i>
+                        <ul>
+                            <li>Zenn の執筆方法は 2 種類
+                                <ol>
+                                    <li>1. Webエディター</li>
+                                    <li>2. ローカルのテキストエディター + CLIte</li>
+                                </ol>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="fav">
                         <i class="fa-regular fa-heart"></i>
                     </div>
                 </div>
-            </section>
+
+            </nav>
 
             <section class="top">
 
@@ -165,212 +182,216 @@
                 <section class="read-next">
                     <h2>Read next</h2>
 
-                    <article>
-                        <p class="icon">🌊</p>
-                        <h3>Zennで会社テックブログを運用した振り返り</h3>
-                        <div class="account-team">
-                            <figure>
-                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                    <div class="read-art">
+                        <article>
+                            <p class="icon">🌊</p>
+                            <h3>Zennで会社テックブログを運用した振り返り</h3>
+                            <div class="account-team">
+                                <figure>
+                                    <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                    <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                </figure>
+                                <div class="account_detail">
+                                    <div class="name">
+                                        <p class="account-name">よさ</p>
+                                        <p class="in">in</p>
+                                        <p class="team-name">フィシルコム</p>
+                                    </div>
+                                    <div class="data">
+                                        <p class="hiduke">2日前</p>
+                                        <p class="iine">♡54</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="icon">✏️</p>
+                            <h3>新しい技術を学習しながらNotionでメモをとり、Zennで効率よく記事化するフロー</h3>
+                            <div class="account-team">
+                                <figure>
+                                    <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                    <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                </figure>
+                                <div class="account_detail">
+                                    <div class="name">
+                                        <p class="account-name">Keita Mori （ふぉれ）</p>
+                                        <p class="in">in</p>
+                                        <p class="team-name">PY</p>
+                                    </div>
+                                    <div class="data">
+                                        <p class="hiduke">2020/10/28</p>
+                                        <p class="iine">♡378</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="icon">❤️</p>
+                            <h3>ZennのアイコンをSimple Iconsに登録して、OSSってやっぱり良いなと思った話</h3>
+                            <div class="account">
                                 <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            </figure>
-                            <div class="account_detail">
-                                <div class="name">
-                                    <p class="account-name">よさ</p>
-                                    <p class="in">in</p>
-                                    <p class="team-name">フィシルコム</p>
-                                </div>
-                                <div class="data">
-                                    <p class="hiduke">2日前</p>
-                                    <p class="iine">♡54</p>
+                                <div class="account_detail">
+                                    <p class="account-name">nekocodeX</p>
+                                    <div class="data">
+                                        <p class="hiduke">2020/12/17</p>
+                                        <p class="iine">♡126</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">✏️</p>
-                        <h3>新しい技術を学習しながらNotionでメモをとり、Zennで効率よく記事化するフロー</h3>
-                        <div class="account-team">
-                            <figure>
-                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                        <article>
+                            <p class="icon">✍️</p>
+                            <h3>Zenn の執筆を支援する VSCode 拡張 Zenn Editor</h3>
+                            <div class="account">
                                 <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            </figure>
-                            <div class="account_detail">
-                                <div class="name">
-                                    <p class="account-name">Keita Mori （ふぉれ）</p>
-                                    <p class="in">in</p>
-                                    <p class="team-name">PY</p>
-                                </div>
-                                <div class="data">
-                                    <p class="hiduke">2020/10/28</p>
-                                    <p class="iine">♡378</p>
+                                <div class="account_detail">
+                                    <p class="account-name">negokaz</p>
+                                    <div class="data">
+                                        <p class="hiduke">2021/04/29</p>
+                                        <p class="iine">♡232</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">❤️</p>
-                        <h3>ZennのアイコンをSimple Iconsに登録して、OSSってやっぱり良いなと思った話</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">nekocodeX</p>
-                                <div class="data">
-                                    <p class="hiduke">2020/12/17</p>
-                                    <p class="iine">♡126</p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article>
-                        <p class="icon">✍️</p>
-                        <h3>Zenn の執筆を支援する VSCode 拡張 Zenn Editor</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">negokaz</p>
-                                <div class="data">
-                                    <p class="hiduke">2021/04/29</p>
-                                    <p class="iine">♡232</p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article>
-                        <p class="icon">📖</p>
-                        <h3>Zennで本を作ってみた感想と本作りで得た知見</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">PADAone🐕</p>
-                                <div class="data">
-                                    <p class="hiduke">2022/07/05</p>
-                                    <p class="iine">♡48</p>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article>
-                        <p class="icon">👩‍🎨</p>
-                        <h3>デザインガイドラインを使って既存のコンポーネントを（愚直に）アップデートする</h3>
-                        <div class="account-team">
-                            <figure>
-                                <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                        <article>
+                            <p class="icon">📖</p>
+                            <h3>Zennで本を作ってみた感想と本作りで得た知見</h3>
+                            <div class="account">
                                 <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            </figure>
-                            <div class="account_detail">
-                                <div class="name">
-                                    <p class="account-name">waddy_u</p>
-                                    <p class="in">in</p>
-                                    <p class="team-name">Zenn Tech Blog</p>
-                                </div>
-                                <div class="data">
-                                    <p class="hiduke">4日前</p>
-                                    <p class="iine">♡13</p>
+                                <div class="account_detail">
+                                    <p class="account-name">PADAone🐕</p>
+                                    <div class="data">
+                                        <p class="hiduke">2022/07/05</p>
+                                        <p class="iine">♡48</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">🧘</p>
-                        <h3>僕がZennを選んだ理由</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">daichi-gamedev</p>
-                                <div class="data">
-                                    <p class="hiduke">2021/04/27</p>
-                                    <p class="iine">♡220</p>
+                        <article>
+                            <p class="icon">👩‍🎨</p>
+                            <h3>デザインガイドラインを使って既存のコンポーネントを（愚直に）アップデートする</h3>
+                            <div class="account-team">
+                                <figure>
+                                    <img class="team-icon" src="image/207a09bdee.png" alt="チームのアイコン">
+                                    <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                </figure>
+                                <div class="account_detail">
+                                    <div class="name">
+                                        <p class="account-name">waddy_u</p>
+                                        <p class="in">in</p>
+                                        <p class="team-name">Zenn Tech Blog</p>
+                                    </div>
+                                    <div class="data">
+                                        <p class="hiduke">4日前</p>
+                                        <p class="iine">♡13</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">🌟</p>
-                        <h3>有料記事の技術ライターで食っていけるか</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">mizchi</p>
-                                <div class="data">
-                                    <p class="hiduke">2020/09/22</p>
-                                    <p class="iine">♡206</p>
+                        <article>
+                            <p class="icon">🧘</p>
+                            <h3>僕がZennを選んだ理由</h3>
+                            <div class="account">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                <div class="account_detail">
+                                    <p class="account-name">daichi-gamedev</p>
+                                    <div class="data">
+                                        <p class="hiduke">2021/04/27</p>
+                                        <p class="iine">♡220</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">😺</p>
-                        <h3>【エンジニア必須】何でも文書化のススメ</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">harrythecode</p>
-                                <div class="data">
-                                    <p class="hiduke">2022/10/29</p>
-                                    <p class="iine">♡52</p>
+                        <article>
+                            <p class="icon">🌟</p>
+                            <h3>有料記事の技術ライターで食っていけるか</h3>
+                            <div class="account">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                <div class="account_detail">
+                                    <p class="account-name">mizchi</p>
+                                    <div class="data">
+                                        <p class="hiduke">2020/09/22</p>
+                                        <p class="iine">♡206</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
-                    <article>
-                        <p class="icon">💎</p>
-                        <h3>Zenn & Hugo in Obsidian : OHZフローによるナレッジベースとアウトプットコンテンツの完全統括</h3>
-                        <div class="account">
-                            <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
-                            <div class="account_detail">
-                                <p class="account-name">PADAone🐕</p>
-                                <div class="data">
-                                    <p class="hiduke">2020/12/17</p>
-                                    <p class="iine">♡126</p>
+                        <article>
+                            <p class="icon">😺</p>
+                            <h3>【エンジニア必須】何でも文書化のススメ</h3>
+                            <div class="account">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                <div class="account_detail">
+                                    <p class="account-name">harrythecode</p>
+                                    <div class="data">
+                                        <p class="hiduke">2022/10/29</p>
+                                        <p class="iine">♡52</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </article>
+                        </article>
 
+                        <article>
+                            <p class="icon">💎</p>
+                            <h3>Zenn & Hugo in Obsidian : OHZフローによるナレッジベースとアウトプットコンテンツの完全統括</h3>
+                            <div class="account">
+                                <img class="account-icon" src="image/m.png" alt="アカウントのアイコン">
+                                <div class="account_detail">
+                                    <p class="account-name">PADAone🐕</p>
+                                    <div class="data">
+                                        <p class="hiduke">2020/12/17</p>
+                                        <p class="iine">♡126</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
                 </section>
                 
             </main>
 
             <footer>
 
-                <img class="logo" src="image/logo.png" alt="Zennのロゴ">
-                <p class="text">エンジニアのための情報共有コミュニティ</p>
-
-                <section class="foot">
-                      <div class="About">
-                        <h3>About</h3>
-                        <p>Zennについて</p>
-                        <p>運営会社</p>
-                        <p>お知らせ・リリース</p>
-                      </div>
-                      <div class="Guides">
-                        <h3>Guides</h3>
-                        <p>使い方</p>
-                        <p>Publication</p>
-                        <p>よくある質問</p>
-                      </div>
-                      <div class="Links">
-                        <h3>Links</h3>
-                        <p>Twitter</p>
-                        <p>GitHub</p>
-                        <p>メディアキット</p>
-                      </div>
-                      <div class="Legal">
-                        <h3>Legal</h3>
-                        <p>利用規約</p>
-                        <p>プライバシーポリシー</p>
-                        <p>特商法表記</p>
-                      </div>
-                </section>
+                <div class="footer">
+                    <div class="img">
+                        <img class="logo" src="image/logo.png" alt="Zennのロゴ">
+                        <p class="text">エンジニアのための情報共有コミュニティ</p>
+                    </div>
+                    <section class="foot">
+                        <div class="About">
+                            <h3>About</h3>
+                            <p>Zennについて</p>
+                            <p>運営会社</p>
+                            <p>お知らせ・リリース</p>
+                        </div>
+                        <div class="Guides">
+                            <h3>Guides</h3>
+                            <p>使い方</p>
+                            <p>Publication</p>
+                            <p>よくある質問</p>
+                        </div>
+                        <div class="Links">
+                            <h3>Links</h3>
+                            <p>Twitter</p>
+                            <p>GitHub</p>
+                            <p>メディアキット</p>
+                        </div>
+                        <div class="Legal">
+                            <h3>Legal</h3>
+                            <p>利用規約</p>
+                            <p>プライバシーポリシー</p>
+                            <p>特商法表記</p>
+                        </div>
+                    </section>
+                </div>
                 <div class="classmethod">
                     <p>生成AIのオンラインイベント2/27（水）開催！</p>
                     <img src="image/classmethod-logo-small.svg" alt="classmethodのアイコン">
@@ -384,3 +405,7 @@
     </body>
 
 </html>
+
+
+
+
